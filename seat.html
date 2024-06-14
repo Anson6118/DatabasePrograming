@@ -1,0 +1,72 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Train Booking Page</title>
+  <link rel="stylesheet" href="/assets/css/style2.css">
+</head>
+<div class="movie-container">
+    <label>Pick a train: </label>
+  <select id="movie">
+    <option value="250">新自強</option>
+    <option value="150">莒光號</option>
+    <option value="100">區間車</option>
+    <option value="200">普悠瑪</option>
+  </select>
+  <ul class="showcase">
+    <li>
+      <div class="seat"></div>
+      <small>空位</small>
+    </li>
+    <li>
+      <div class="seat selected"></div>
+      <small>選擇中</small>
+    </li>
+    <li>
+      <div class="seat occupied"></div>
+      <small>被買走了</small>
+    </li>    
+  </ul>
+  <div class="container">
+    <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div> 
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+       
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+    </div>
+    <p class="text">
+      你選了 <span id="count">0</span> 座位。總金額為 <span id="total">0</span> 元
+    </p>
+    <script src="/assets/js/script.js"></script>
+  </div>
+</div>
